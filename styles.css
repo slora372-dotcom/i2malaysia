@@ -373,3 +373,6 @@ img { display: block; max-width: 100%; }
 .tabs-wrap { padding: 0 6px 12px; }
 .tabs { gap: 4px; padding: 6px 0; }
 .tab.has-img { flex: 1 1 0; min-width: 0; padding: 1px; border-radius: 12px; }
+
+/* Worked examples inside guides */
+.seo .note { margin: 10px 0; padding: 10px 12px; border-left: 3px solid #2ef2e0; border-radius: 6px; background: rgba(46, 242, 224, .08); }
