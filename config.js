@@ -1,0 +1,142 @@
+// All site content lives here. Edit this file to change links, banners
+// or games - no need to touch index.html, styles.css or script.js.
+
+// Every button goes to this link.
+const L = "https://ppg668.cyou/register.php?r=BMMTH";
+
+window.SITE = {
+  brand: {
+    name: "i2Malaysia",
+    tagline: "Trusted Online Casino",
+    logo: "",
+    partner: { label: "PARTNERSHIP", name: "Malaysia Group Partnership", img: "assets/ui/partner-badge.png", animated: "assets/ui/partner-badge.gif", url: L },
+  },
+
+  currency: "RM",
+  minDeposit: 1,
+  minWithdrawal: 30,
+
+  links: {
+    login: L, register: L, deposit: L, withdraw: L, history: L, bonus: L,
+    liveChat: L, settings: L, downlineChart: L, referralInfo: L,
+    androidApp: L, iosApp: L, leaderboard: L, luckyDraw: L,
+  },
+
+  // Link that "Copy link" / "Share" hand out.
+  referralUrl: L,
+
+  announcement:
+    "Welcome To i2Malaysia | Downline Commision 5% Setiap Isnin 12AM | Rebate 5% Setiap Isnin 12AM | Daily Rollover Rebate Setiap Hari 12AM | Untung Extra Income Tekan \"Share\" Sahaja, Lagi Banyak Share Lagi Banyak Untung",
+
+  banners: [
+    { title: "Special Bonus: Welcome Bonus RM6.66, Free Share Bonus, Downline 1st Deposit", img: "assets/banners/banner-1.jpg", url: L },
+    { title: "Welcome Bonus Get Free RM6.66", img: "assets/banners/banner-2.jpg", url: L },
+    { title: "1 Plus 1 Bonus: RM10 Free RM10, RM30 Free RM30, RM50 Free RM50", img: "assets/banners/banner-3.jpg", url: L },
+    { title: "Member Bonus: 1st Deposit 5%, 2nd Deposit 6%", img: "assets/banners/banner-4.jpg", url: L },
+    { title: "5% Rebate Every Monday 12AM", img: "assets/banners/banner-5.jpg", url: L },
+    { title: "Share Referral: Get Free RM1 - RM10, Get 5% Commission From Downline", img: "assets/banners/banner-6.jpg", url: L },
+    { title: "Lucky Draw: Every Deposit Get 1 Lucky Number", img: "assets/banners/banner-7.jpg", url: L },
+    { title: "Daily Rollover Rebate 0.5%", img: "assets/banners/banner-8.jpg", url: L },
+    { title: "Mega888 Hot Games", img: "assets/banners/banner-9.jpg", url: L },
+    { title: "Pussy888 Hot Games", img: "assets/banners/banner-10.jpg", url: L },
+    { title: "JILI Hot Games", img: "assets/banners/banner-11.jpg", url: L },
+  ],
+
+  // "We Accept" payment strip under the banners.
+  staticBanner: "assets/static-banner.png",
+  trustPoints: [],
+
+  referral: {
+    heading: "Share Referral: 1 share get RM1-10, extra 5% commission every Monday 12AM",
+    img: "assets/ui/referral-banner.png",
+  },
+
+  categories: [
+    { id: "slot", label: "SLOT GAME", img: "assets/cat/slot.png" },
+    { id: "app", label: "APP GAME", img: "assets/cat/app.png" },
+    { id: "live", label: "LIVE CASINO", img: "assets/cat/live.png" },
+    { id: "4d", label: "4D", img: "assets/cat/4d.png" },
+    { id: "sports", label: "SPORTBOOK", img: "assets/cat/sport.png" },
+  ],
+
+  games: [
+    { name: "JILI", category: "slot", img: "assets/games/c1-01-jili.jpg", url: L },
+    { name: "Playtech", category: "slot", img: "assets/games/c1-02-pt3-1.jpg", url: L },
+    { name: "Mega H5", category: "slot", img: "assets/games/c1-03-mg888h5.jpg", url: L },
+    { name: "Pragmatic Play", category: "slot", img: "assets/games/c1-04-pp-1.jpg", url: L },
+    { name: "918Kiss H5", category: "slot", img: "assets/games/c1-05-kiss918h5.jpg", url: L },
+    { name: "SCR888 H5", category: "slot", img: "assets/games/c1-06-scr888h5.jpg", url: L },
+    { name: "Joker", category: "slot", img: "assets/games/c1-07-joker.jpg", url: L },
+    { name: "Epic Win", category: "slot", img: "assets/games/c1-08-epicwin.jpg", url: L },
+    { name: "Pegasus", category: "slot", img: "assets/games/c1-09-pegs.jpg", url: L },
+    { name: "Gemini", category: "slot", img: "assets/games/c1-10-gemini.jpg", url: L },
+    { name: "WF Gaming", category: "slot", img: "assets/games/c1-11-wf.jpg", url: L },
+    { name: "Aspect Gaming", category: "slot", img: "assets/games/c1-12-aspect.jpg", url: L },
+    { name: "Meta Gaming", category: "slot", img: "assets/games/c1-13-meta.jpg", url: L },
+    { name: "Rich Gaming", category: "slot", img: "assets/games/c1-14-rg.jpg", url: L },
+    { name: "AceWin", category: "slot", img: "assets/games/c1-15-macross.jpg", url: L },
+    { name: "Yes Bingo", category: "slot", img: "assets/games/c1-16-ybg.jpg", url: L },
+    { name: "Rich88", category: "slot", img: "assets/games/c1-17-rich88.jpg", url: L },
+    { name: "FastSpin", category: "slot", img: "assets/games/c1-18-fastspin.jpg", url: L },
+    { name: "Microgaming", category: "slot", img: "assets/games/c1-19-mg.jpg", url: L },
+    { name: "Dragoon Soft", category: "slot", img: "assets/games/c1-20-dgs.jpg", url: L },
+    { name: "Habanero", category: "slot", img: "assets/games/c1-21-hbnr.jpg", url: L },
+    { name: "Mario Club", category: "slot", img: "assets/games/c1-22-mario.jpg", url: L },
+    { name: "ACE333", category: "slot", img: "assets/games/c1-23-ace333.jpg", url: L },
+    { name: "Creative Gaming", category: "slot", img: "assets/games/c1-24-cg.jpg", url: L },
+    { name: "KA Gaming", category: "slot", img: "assets/games/c1-25-ka.jpg", url: L },
+    { name: "JDB", category: "slot", img: "assets/games/c1-26-jdb-1.jpg", url: L },
+    { name: "Funky Games", category: "slot", img: "assets/games/c1-27-funky.jpg", url: L },
+    { name: "CQ9", category: "slot", img: "assets/games/c1-28-cq-1.jpg", url: L },
+    { name: "SimplePlay", category: "slot", img: "assets/games/c1-29-sp.jpg", url: L },
+    { name: "BigPot Gaming", category: "slot", img: "assets/games/c1-30-bp.jpg", url: L },
+    { name: "LFC", category: "slot", img: "assets/games/c1-31-lfc.jpg", url: L },
+    { name: "Booongo", category: "slot", img: "assets/games/c1-32-bng.jpg", url: L },
+    { name: "Spadegaming", category: "slot", img: "assets/games/c1-33-spade.jpg", url: L },
+    { name: "NextSpin", category: "slot", img: "assets/games/c1-34-ns.jpg", url: L },
+    { name: "Red Tiger", category: "slot", img: "assets/games/c1-35-awc-6.jpg", url: L },
+    { name: "KS Gaming", category: "slot", img: "assets/games/c1-37-ks-2.jpg", url: L },
+    { name: "Asia Gaming", category: "slot", img: "assets/games/c1-38-bbag-1.jpg", url: L },
+    { name: "888King", category: "slot", img: "assets/games/c1-39-king888h5.jpg", url: L },
+    { name: "Spadegaming 2", category: "slot", img: "assets/games/c1-41-awc-1.jpg", url: L },
+    { name: "Fa Chai", category: "slot", img: "assets/games/c1-42-fc.jpg", url: L },
+    { name: "BT Gaming", category: "slot", img: "assets/games/c1-43-bt.jpg", url: L },
+    { name: "AFB Slot", category: "slot", img: "assets/games/c1-44-afbslot.jpg", url: L },
+    { name: "PlayStar", category: "slot", img: "assets/games/c1-45-playstar.jpg", url: L },
+    { name: "G759 Gaming", category: "slot", img: "assets/games/c1-46-g759.jpg", url: L },
+    { name: "Naga Games", category: "slot", img: "assets/games/c1-47-naga.jpg", url: L },
+    { name: "Spribe", category: "slot", img: "assets/games/c1-48-jdb2-3.jpg", url: L },
+    { name: "RTG Slots", category: "slot", img: "assets/games/c1-49-rtg.jpg", url: L },
+    { name: "Mancala Gaming", category: "slot", img: "assets/games/c1-50-mancala.jpg", url: L },
+    { name: "YGR", category: "slot", img: "assets/games/c1-52-ygr.jpg", url: L },
+    { name: "Mega888", category: "app", img: "assets/games/c2-01-mega-1.jpg", url: L },
+    { name: "918Kiss", category: "app", img: "assets/games/c2-02-kiss918.jpg", url: L },
+    { name: "918Kiss 2", category: "app", img: "assets/games/c2-02-yes918.jpg", url: L },
+    { name: "Pussy888", category: "app", img: "assets/games/c2-03-pussy.jpg", url: L },
+    { name: "GW99", category: "app", img: "assets/games/c2-04-gw99.jpg", url: L },
+    { name: "Suncity", category: "app", img: "assets/games/c2-05-suncity.jpg", url: L },
+    { name: "3Win8", category: "app", img: "assets/games/c2-07-win38.jpg", url: L },
+    { name: "Playboy 2", category: "app", img: "assets/games/c2-10-igaming.jpg", url: L },
+    { name: "Kenzo", category: "app", img: "assets/games/c2-11-kenzo.jpg", url: L },
+    { name: "Big Gaming", category: "live", img: "assets/games/c3-00-awc-10.jpg", url: L },
+    { name: "Sexy Baccarat", category: "live", img: "assets/games/c3-00-awc-2.jpg", url: L },
+    { name: "CT855", category: "live", img: "assets/games/c3-00-ct.jpg", url: L },
+    { name: "Pragmatic Play Live", category: "live", img: "assets/games/c3-00-pp-2.jpg", url: L },
+    { name: "Playtech Live", category: "live", img: "assets/games/c3-00-pt3-2.jpg", url: L },
+    { name: "SA Gaming", category: "live", img: "assets/games/c3-00-sa.jpg", url: L },
+    { name: "WM Casino", category: "live", img: "assets/games/c3-00-wm.jpg", url: L },
+    { name: "Yeebet", category: "live", img: "assets/games/c3-00-yg.jpg", url: L },
+    { name: "4D Lottery", category: "4d", img: "assets/games/c4-00-hw4d.jpg", url: L },
+    { name: "Youlian Gaming", category: "4d", img: "assets/games/c4-00-awc-12.jpg", url: L },
+    { name: "JDB Fishing", category: "4d", img: "assets/games/c4-00-jdb-2.jpg", url: L },
+    { name: "KS Fishing", category: "4d", img: "assets/games/c4-00-ks-1.jpg", url: L },
+    { name: "E1 Sport", category: "sports", img: "assets/games/c5-00-awc-11.jpg", url: L },
+    { name: "RCB988", category: "sports", img: "assets/games/c5-00-awc-8.jpg", url: L },
+    { name: "AG Sports", category: "sports", img: "assets/games/c5-00-bbag-2.jpg", url: L },
+    { name: "MaxBet", category: "sports", img: "assets/games/c5-00-ibc.jpg", url: L },
+    { name: "M8Bet", category: "sports", img: "assets/games/c5-00-m8.jpg", url: L },
+    { name: "Bet33", category: "sports", img: "assets/games/c5-00-ob.jpg", url: L },
+  ],
+
+  footerNote: "18+ sahaja. Sila bermain secara bertanggungjawab.",
+};

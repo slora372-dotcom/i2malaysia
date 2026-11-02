@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>i2Malaysia – Kasino Online Malaysia | Free RM6.66, Deposit RM1</title>
+  <meta name="description" content="i2Malaysia kasino online Malaysia: welcome bonus free RM6.66, deposit dari RM1 melalui bank, Touch 'n Go, DuitNow dan telco, withdraw dari RM30. Slot JILI, Mega888, 918Kiss, Pussy888 dan live casino.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="i2Malaysia">
+  <meta property="og:title" content="i2Malaysia – Kasino Online Malaysia | Free RM6.66, Deposit RM1">
+  <meta property="og:description" content="Welcome bonus free RM6.66, deposit dari RM1, withdraw dari RM30. Slot, live casino, 4D dan sportbook.">
+  <link rel="icon" href="assets/ui/icon.png">
+  <meta name="theme-color" content="#021016">
+  <link rel="preload" as="image" href="assets/banners/banner-1.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+
+    <header class="topbar">
+      <a class="logo" href="./"><img src="assets/ui/header.jpg" data-anim="assets/ui/header.gif" alt="i2Malaysia" width="1000" height="150"></a>
+      <a class="partner" id="partner"></a>
+      <a class="menu-btn" data-link="register" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </a>
+    </header>
+    <div class="marquee" aria-label="Pengumuman"><span id="marquee">Welcome To i2Malaysia</span></div>
+
+    <section class="carousel" aria-label="Promosi">
+      <!-- First banner is written here (not only by script.js) so it appears
+           with the first paint and the page below it never jumps. -->
+      <div class="carousel-track" id="carouselTrack"><a class="slide has-img" href="https://ppg668.cyou/register.php?r=BMMTH"><img src="assets/banners/banner-1.jpg" alt="Special Bonus: Welcome Bonus RM6.66, Free Share Bonus, Downline 1st Deposit" width="1000" height="500" fetchpriority="high"></a></div>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </section>
+
+    <ul class="trust" id="trust" hidden></ul>
+    <div class="pay-strip has-img" id="payStrip"><img src="assets/static-banner.png" alt="Kaedah bayaran: Maybank, CIMB, Public Bank, RHB, Hong Leong, DuitNow, Touch n Go, Boost, GrabPay, SPay Global, Digi, Maxis, Celcom, U Mobile" width="800" height="131"></div>
+
+    <div class="account">
+    <div class="auth-row">
+      <a class="img-btn" data-link="login"><img src="assets/ui/btn-login.png" alt="Login" width="300" height="60"></a>
+      <a class="img-btn" data-link="register"><img src="assets/ui/btn-register.png" alt="Register" width="300" height="60"></a>
+    </div>
+
+    <section class="wallet">
+      <div class="wallet-info">
+        <p class="wallet-label">Baki:</p>
+        <p class="wallet-amount" id="balance">RM0.00</p>
+        <p>Deposit Minimum: <b id="minDeposit">RM1.00</b></p>
+        <p>Withdraw Minimum: <b id="minWithdrawal">RM30.00</b></p>
+      </div>
+      <div class="wallet-actions">
+        <a class="img-btn" data-link="deposit"><img src="assets/ui/btn-deposit.png" data-anim="assets/ui/btn-deposit.gif" alt="Deposit" width="300" height="75"></a>
+        <a class="img-btn" data-link="withdraw"><img src="assets/ui/btn-withdraw.png" alt="Withdraw" width="300" height="75"></a>
+        <button class="img-btn" id="refreshBtn"><img src="assets/ui/btn-refresh.png" alt="Refresh" width="300" height="75"></button>
+      </div>
+    </section>
+    </div>
+
+    <a class="promo-img" data-link="leaderboard"><img src="assets/ui/leaderboard.jpg" data-anim="assets/ui/leaderboard.gif" alt="Leaderboard: latest cuci and game tips" width="540" height="199" loading="lazy"></a>
+
+    <section class="referral has-img" id="referral">
+      <div class="referral-banner has-img" id="referralBanner"><img src="assets/ui/referral-banner.png" alt="Share Referral: 1 share get RM1-10, extra 5% commission every Monday 12AM" width="800" height="304" loading="lazy"></div>
+      <div class="referral-actions">
+        <button class="img-btn" id="shareBtn"><img src="assets/ui/btn-share.png" data-anim="assets/ui/btn-share.gif" alt="Share" width="300" height="60" loading="lazy"></button>
+        <a class="img-btn" data-link="downlineChart"><img src="assets/ui/btn-downline.png" alt="Downline" width="300" height="60" loading="lazy"></a>
+        <button class="img-btn" id="copyBtn"><img src="assets/ui/btn-copy.png" alt="Copy link" width="300" height="60" loading="lazy"></button>
+        <a class="img-btn" data-link="referralInfo"><img src="assets/ui/btn-more.png" alt="More info" width="300" height="60" loading="lazy"></a>
+      </div>
+    </section>
+
+    <a class="promo-img" data-link="luckyDraw"><img src="assets/ui/luckydraw.jpg" data-anim="assets/ui/luckydraw.gif" alt="Lucky Draw Deposit: setiap RM10 deposit = 1 lucky number, hadiah pertama RM300" width="1000" height="346" loading="lazy"></a>
+
+    <a class="promo-img" data-link="androidApp"><img src="assets/ui/download-app.png" alt="Download app i2Malaysia" width="1081" height="110" loading="lazy"></a>
+
+    <section class="block">
+      <div class="tabs-wrap">
+        <div class="tabs" id="tabs" role="tablist"></div>
+      </div>
+      <div class="game-grid" id="games"></div>
+    </section>
+
+    <section class="guide-grid-wrap home-grid" aria-label="Panduan i2Malaysia">
+      <h2 class="guide-grid-title">Panduan i2Malaysia</h2>
+      <div class="guide-grid">
+        <a href="register"><b>Register</b><span>Cara daftar akaun</span></a>
+        <a href="register#login"><b>Login</b><span>Masuk semula ke akaun anda</span></a>
+        <a href="deposit"><b>Deposit</b><span>Min RM1, bank, e-wallet &amp; telco</span></a>
+        <a href="cuci"><b>Cuci (Withdraw)</b><span>Min RM30, langkah &amp; syarat</span></a>
+        <a href="app-download"><b>App Download</b><span>App i2Malaysia Android &amp; iOS</span></a>
+        <a href="#faq"><b>Soalan Lazim</b><span>Bonus, deposit &amp; cuci</span></a>
+      </div>
+    </section>
+
+    <!-- Search-engine content. Written in the HTML so crawlers read it
+         without running scripts. Keep the FAQ text in sync with the
+         FAQPage JSON-LD at the bottom of this file. -->
+    <section class="seo">
+      <h1>i2Malaysia – Kasino Online Malaysia dengan Free RM6.66 dan Deposit RM1</h1>
+      <p>i2Malaysia ialah kasino online untuk pemain di Malaysia, dengan slot, live casino, 4D dan sportbook daripada penyedia seperti JILI, Mega888, 918Kiss, Pussy888, Pragmatic Play dan Playtech. Daftar dengan nombor telefon bimbit anda, deposit dari RM1 dan withdraw dari RM30.</p>
+
+      <div class="collapsible">
+        <h2>Promosi i2Malaysia</h2>
+        <ul>
+          <li><b>Welcome Bonus free RM6.66</b> untuk ahli baharu.</li>
+          <li><b>1 Plus 1 Bonus:</b> deposit RM10 free RM10, RM30 free RM30, RM50 free RM50.</li>
+          <li><b>Member Bonus:</b> 5% untuk deposit pertama dan 6% untuk deposit kedua.</li>
+          <li><b>Rebate 5%</b> setiap Isnin jam 12 tengah malam.</li>
+          <li><b>Daily Rollover Rebate 0.5%</b>, dikreditkan setiap hari jam 12 tengah malam.</li>
+          <li><b>Share Referral:</b> RM1 hingga RM10 bagi setiap share, dan komisen 5% daripada downline setiap Isnin.</li>
+          <li><b>Lucky Draw Deposit:</b> setiap deposit RM10 ke atas = 1 lucky number. Hadiah pertama RM300, kedua RM200, ketiga RM100.</li>
+        </ul>
+        <p>Setiap promosi ada syarat rollover dan terma sendiri. Tanya Live Chat sebelum menuntut.</p>
+
+        <h2>Slot Online: JILI, Mega H5, 918Kiss dan Pragmatic Play</h2>
+        <p>Pilih slot online daripada hampir 50 penyedia seperti JILI, Playtech, Mega H5, Pragmatic Play, 918Kiss H5, SCR888 H5, Joker, Epic Win, Pegasus, Rich Gaming, Fa Chai, Spadegaming dan YGR.</p>
+
+        <h2>App Game: Mega888, 918Kiss dan Pussy888</h2>
+        <p>Main app game popular seperti Mega888, 918Kiss, Pussy888, GW99, Suncity, 3Win8 dan Kenzo dengan akaun i2Malaysia yang sama.</p>
+
+        <h2>Live Casino, 4D dan Sportbook</h2>
+        <p>Live casino daripada Big Gaming, Sexy Baccarat, Pragmatic Play Live, Playtech Live, SA Gaming, WM Casino dan Yeebet. Loteri 4D, permainan tembak ikan, dan taruhan sukan melalui MaxBet, M8Bet dan lain-lain.</p>
+
+        <h2>Deposit dari RM1 dan Cuci dari RM30</h2>
+        <p>Deposit bermula dari RM1 melalui perbankan online (Maybank, CIMB, Public Bank, RHB, Hong Leong), DuitNow, Touch 'n Go eWallet, Boost, GrabPay, SPay Global atau tambah nilai telco (Digi, Maxis, Celcom, U Mobile). Cuci (withdraw) minimum ialah RM30. Lihat <a href="deposit">panduan deposit</a> dan <a href="cuci">panduan cuci i2Malaysia</a>.</p>
+
+        <h2>Muat Turun App i2Malaysia</h2>
+        <p>App i2Malaysia tersedia untuk Android dan iOS. Selepas dipasang, log masuk dengan akaun yang sama seperti di laman web. Lihat <a href="app-download">panduan muat turun app i2Malaysia</a>.</p>
+
+        <h2 id="faq">Soalan Lazim i2Malaysia</h2>
+        <details>
+          <summary>Apakah i2Malaysia?</summary>
+          <p>i2Malaysia ialah kasino online untuk pemain di Malaysia, dengan slot, app game, live casino, 4D dan sportbook dalam satu akaun.</p>
+        </details>
+        <details>
+          <summary>Berapakah deposit dan withdraw minimum?</summary>
+          <p>Deposit minimum ialah RM1 dan withdraw minimum ialah RM30.</p>
+        </details>
+        <details>
+          <summary>Apakah bonus untuk ahli baharu?</summary>
+          <p>Ahli baharu boleh menuntut welcome bonus free RM6.66, serta 1 Plus 1 Bonus dan Member Bonus untuk deposit pertama dan kedua. Terma rollover dikenakan.</p>
+        </details>
+        <details>
+          <summary>Bagaimana Lucky Draw Deposit berfungsi?</summary>
+          <p>Setiap deposit RM10 ke atas memberi 1 lucky number. Keputusan diumumkan setiap hari jam 9 malam mengikut Grand Dragon. Hadiah dimasukkan terus ke wallet anda.</p>
+        </details>
+        <details>
+          <summary>Bagaimana cara menghubungi khidmat pelanggan?</summary>
+          <p>Tekan Live Chat di menu bawah halaman.</p>
+        </details>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-note" id="footerNote"></p>
+    </footer>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="./"><img src="assets/ui/nav-home.png" alt="Home" width="300" height="300"></a>
+    <a data-link="history"><img src="assets/ui/nav-history.png" alt="History" width="300" height="300"></a>
+    <a data-link="bonus"><img src="assets/ui/nav-promo.png" alt="Promo" width="300" height="300"><b class="badge">1</b></a>
+    <a data-link="liveChat"><img src="assets/ui/nav-chat.png" alt="Live chat" width="300" height="300"><b class="badge">1</b></a>
+    <a data-link="settings"><img src="assets/ui/nav-setting.png" alt="Setting" width="300" height="300"></a>
+  </nav>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "ms-MY",
+    "mainEntity": [
+      { "@type": "Question", "name": "Apakah i2Malaysia?", "acceptedAnswer": { "@type": "Answer", "text": "i2Malaysia ialah kasino online untuk pemain di Malaysia, dengan slot, app game, live casino, 4D dan sportbook dalam satu akaun." } },
+      { "@type": "Question", "name": "Berapakah deposit dan withdraw minimum?", "acceptedAnswer": { "@type": "Answer", "text": "Deposit minimum ialah RM1 dan withdraw minimum ialah RM30." } },
+      { "@type": "Question", "name": "Apakah bonus untuk ahli baharu?", "acceptedAnswer": { "@type": "Answer", "text": "Ahli baharu boleh menuntut welcome bonus free RM6.66, serta 1 Plus 1 Bonus dan Member Bonus untuk deposit pertama dan kedua. Terma rollover dikenakan." } },
+      { "@type": "Question", "name": "Bagaimana Lucky Draw Deposit berfungsi?", "acceptedAnswer": { "@type": "Answer", "text": "Setiap deposit RM10 ke atas memberi 1 lucky number. Keputusan diumumkan setiap hari jam 9 malam mengikut Grand Dragon. Hadiah dimasukkan terus ke wallet anda." } },
+      { "@type": "Question", "name": "Bagaimana cara menghubungi khidmat pelanggan?", "acceptedAnswer": { "@type": "Answer", "text": "Tekan Live Chat di menu bawah halaman." } }
+    ]
+  }
+  </script>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+  <script src="collapse.js"></script>
+  <script src="animate.js"></script>
+</body>
+</html>
