@@ -34,7 +34,7 @@ window.SITE = {
     { title: "1 Plus 1 Bonus: RM10 Free RM10, RM30 Free RM30, RM50 Free RM50", img: "assets/banners/banner-3.jpg", url: L },
     { title: "Member Bonus: 1st Deposit 5%, 2nd Deposit 6%", img: "assets/banners/banner-4.jpg", url: L },
     { title: "5% Rebate Every Monday 12AM", img: "assets/banners/banner-5.jpg", url: L },
-    { title: "Share Referral: Get Free RM1 - RM10, Get 5% Commission From Downline", img: "assets/banners/banner-6.jpg", url: L },
+    { title: "Share Referral: RM0.50 setiap share, 5% commission from downline", img: "assets/banners/banner-6.jpg", url: L },
     { title: "Lucky Draw: Every Deposit Get 1 Lucky Number", img: "assets/banners/banner-7.jpg", url: L },
     { title: "Daily Rollover Rebate 0.5%", img: "assets/banners/banner-8.jpg", url: L },
     { title: "Mega888 Hot Games", img: "assets/banners/banner-9.jpg", url: L },
@@ -47,7 +47,7 @@ window.SITE = {
   trustPoints: [],
 
   referral: {
-    heading: "Share Referral: 1 share get RM1-10, extra 5% commission every Monday 12AM",
+    heading: "Share Referral: RM0.50 setiap share, komisen 5% setiap Isnin 12AM",
     img: "assets/ui/referral-banner.png",
   },
 
